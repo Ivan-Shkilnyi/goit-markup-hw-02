@@ -1,7 +1,50 @@
 body {
-    font-family: "Helvetica Neue", "Roboto", "Verdana", sans-serif
+    font-family: "Roboto", sans-serif;
+    color: #434455;
+    background-color: #FFFFFF;
 }
 
 ul {
     list-style-type: none;
 }
+
+a {
+    text-decoration: none;
+}
+
+/*  #region header */
+.logo {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #2E2F42;
+}
+
+.logo-part-web {
+    color: #4D5AE5;
+}
+
+/* #endregion header */
+
+/* #region baner */
+.baner {
+    background-color: #2E2F42;
+}
+
+.main-title {
+    color: #FFFFFF;
+}
+
+.order-service-button {
+    background-color: #4D5AE5;
+    color: #ffffff;
+}
+
+.order-service-button:hover {
+    background-color: #404BBF;
+}
+
+/* #endregion baner */
