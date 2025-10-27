@@ -131,12 +131,13 @@ a {
 
 /* #region our portfolio */
 
-.portfolio-title {
+.portfolio-main-title {
   font-size: 36px;
-  line-height: 1.11111;
+  line-height: 1.11;
   letter-spacing: 0.02em;
   text-align: center;
   color: #2e2f42;
+  text-transform: capitalize;
 }
 
 .portfolio-title {
@@ -145,10 +146,10 @@ a {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
-  text-align: left;
 }
 
-.portfolio-title {
+.portfolio-text {
+  font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
